@@ -1,0 +1,14 @@
+SQL SERVER  - PRIMEIROS PASSOS
+
+CENÁRIO FRUTALLY
+LOJA DE SUCOS
+consulta de sucos
+
+docker run -e "ACCEPT_EULA=Y" -e "Password1@" \
+   -p 1433:1433 --name sqlserver_container \
+   -d mcr.microsoft.com/mssql/server:2022-latest
+
+# Para iniciar
+docker-compose up -d
+
+login: sa
